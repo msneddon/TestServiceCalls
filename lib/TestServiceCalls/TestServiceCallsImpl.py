@@ -36,7 +36,6 @@ class TestServiceCalls:
         self.shockURL = config['shock-url']
         self.handleURL = config['handle-service-url']
         self.sharedFolder = config['scratch']
-        self.callback_url = os.environ['SDK_CALLBACK_URL']
         #END_CONSTRUCTOR
         pass
     
