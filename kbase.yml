@@ -1,0 +1,17 @@
+module-name:
+    TestServiceCalls
+
+module-description:
+    A KBase module
+
+service-language:
+    python
+
+module-version:
+    0.0.1
+
+owners:
+    [msneddon]
+
+service-config:
+    dynamic-service: true
