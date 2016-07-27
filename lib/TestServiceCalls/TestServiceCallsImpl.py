@@ -49,7 +49,7 @@ class TestServiceCalls:
         # ctx is the context object
         # return variables are: o
         #BEGIN get_feature_ids
-        ws = Workspace(self.workspaceURL)
+        ws = Workspace(self.workspaceURL, token = ctx['token'])
 
         featureContainers = ws.get_object_subset([{
                                      'included':['feature_container_references'], 
